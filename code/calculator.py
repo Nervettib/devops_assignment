@@ -1,6 +1,7 @@
 class Calculator:
 
     def add(self, a, b):
+        c = 'XY'
         return a + b
 
     def multiply(self, a, b):
