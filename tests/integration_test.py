@@ -1,4 +1,4 @@
-from code.calculator import Calculator
+from ..code.calculator import Calculator
 
 def test_add_and_multiply_combination():
     calc = Calculator()
