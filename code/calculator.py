@@ -7,4 +7,4 @@ class Calculator:
         return a * b
 
     def add2_then_multiply2(self, x):
-        return Calculator.multiply( Calculator.add(x, 2), 2)
+        return self.multiply( self.add(x, 2), 2)
